@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9a714f5-6fe9-4ed0-b574-6505b3b44c17" name="Default Changelist" comment="" />
+    <list default="true" id="e9a714f5-6fe9-4ed0-b574-6505b3b44c17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tools/pachong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tools/ware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,9 @@
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -35,10 +42,11 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1PAW8WxTHsoS12uGvMjkLvn5Xu2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -241,6 +249,7 @@
       <workItem from="1566131568864" duration="7630000" />
       <workItem from="1566206811136" duration="6835000" />
       <workItem from="1566630674493" duration="46000" />
+      <workItem from="1566809908071" duration="1033000" />
     </task>
     <servers />
   </component>
@@ -249,6 +258,17 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
