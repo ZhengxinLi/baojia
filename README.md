@@ -7,4 +7,4 @@ Java爬虫
 智能客服  
 
 搞着玩的
-[详情地址](Https://47.101.198.71/baojia/index.jsp)
+[详情地址](Http://47.101.198.71/baojia/index.jsp)
