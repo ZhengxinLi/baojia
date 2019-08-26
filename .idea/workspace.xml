@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9a714f5-6fe9-4ed0-b574-6505b3b44c17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -247,7 +248,7 @@
       <workItem from="1566131568864" duration="7630000" />
       <workItem from="1566206811136" duration="6835000" />
       <workItem from="1566630674493" duration="46000" />
-      <workItem from="1566809908071" duration="1878000" />
+      <workItem from="1566809908071" duration="2129000" />
     </task>
     <servers />
   </component>
