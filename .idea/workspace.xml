@@ -7,8 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9a714f5-6fe9-4ed0-b574-6505b3b44c17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fastjson_1_2_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/getjson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/fastjson-1.2.54.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/getjson.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baojia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/baojia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/baojia_war_exploded/WEB-INF/classes/Server/doc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/baojia_war_exploded/WEB-INF/classes/Server/doc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baojia/Server/doc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baojia/Server/doc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/doc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/doc.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +50,7 @@
   <component name="ProjectId" id="1PAW8WxTHsoS12uGvMjkLvn5Xu2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
@@ -248,7 +256,11 @@
       <workItem from="1566131568864" duration="7630000" />
       <workItem from="1566206811136" duration="6835000" />
       <workItem from="1566630674493" duration="46000" />
-      <workItem from="1566809908071" duration="2129000" />
+      <workItem from="1566809908071" duration="2439000" />
+      <workItem from="1566957569166" duration="457000" />
+      <workItem from="1567078875336" duration="1033000" />
+      <workItem from="1567168826264" duration="333000" />
+      <workItem from="1567689290248" duration="525000" />
     </task>
     <servers />
   </component>
@@ -263,7 +275,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

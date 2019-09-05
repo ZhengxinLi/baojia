@@ -1,5 +1,9 @@
 package Server;
 
+import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.JSON;
+import com.lzx.GetJsonFromUrl;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -25,19 +29,26 @@ public class doc {
     }
 
     public  void splitkey() throws IOException, InterruptedException {
-        Process process;
+//        Process process;
+////        this.keys=new Vector<>();
+////        String[] args1 = new String[]{"python", "/usr/python/test.py", this.Content};
+////        process = Runtime.getRuntime().exec(args1);
+////        BufferedReader in = new BufferedReader(new InputStreamReader(process.getInputStream()));
+////        String line = null;
+////        while ((line = in.readLine()) != null) {
+////            String[] temp=dealcode(line).split(",");
+////            keys.add(unicode2String(temp[0]));
+////        }
+////        in.close();
+////        process.waitFor();
         this.keys=new Vector<>();
-        String[] args1 = new String[]{"python", "/usr/python/test.py", this.Content};
-        process = Runtime.getRuntime().exec(args1);
-        BufferedReader in = new BufferedReader(new InputStreamReader(process.getInputStream()));
-        String line = null;
-        while ((line = in.readLine()) != null) {
-            String[] temp=dealcode(line).split(",");
-            keys.add(unicode2String(temp[0]));
+        GetJsonFromUrl getJsonFromUrl=new GetJsonFromUrl("http://47.101.198.71:8080/keysplit/"+this.Content);
+        String json=getJsonFromUrl.getJsonString();
+        JSONObject jsonx = JSON.parseObject(json);
+        int num=Integer.parseInt(jsonx.getString("num"));
+        for(int i=1;i<=num;i++){
+            this.keys.add(jsonx.getString(String.valueOf(i)));
         }
-        in.close();
-        process.waitFor();
-
     }
 
     public static String dealcode(String unicode){
